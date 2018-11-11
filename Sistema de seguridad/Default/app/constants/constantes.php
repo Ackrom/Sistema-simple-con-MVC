@@ -1,0 +1,22 @@
+<?php
+  // en el caso de que __DIR__ no exista usará dirname(__FILE__)
+  $aux=__DIR__;
+  (isset($aux))?define('APP_PATH',dirname(__DIR__).'/'):define('APP_PATH',dirname(dirname(__FILE__)).'/');
+  define('DEFAULT_PATH',dirname(APP_PATH).'/');
+  define('CORE_PATH',dirname(DEFAULT_PATH).'/Core/');
+  define('LIBS_PATH',CORE_PATH.'libs/');
+  define('WEB_PATH',DEFAULT_PATH.'web/');
+  define('SITE_MEDIA_PATH',WEB_PATH.'site_media/');
+  define('VISUAL',"http://".$_SERVER['SERVER_NAME'].dirname($_SERVER['PHP_SELF'])."/web/");
+  define('VISUAL_PDF',dirname(VISUAL).'/app/Fichas/');
+  define('VISUAL_IMG',dirname(VISUAL).'/app/img/');
+  $ALL_CONSTANTS=array(
+    'APP_PATH'=>APP_PATH,
+    'DEFAULT_PATH'=>DEFAULT_PATH,
+    'CORE_PATH'=>CORE_PATH,
+    'LIBS_PATH'=>LIBS_PATH,
+    'WEB_PATH'=>WEB_PATH,
+    'SITE_MEDIA_PATH'=>SITE_MEDIA_PATH,
+    'VISUAL'=>VISUAL
+  );
+?>
