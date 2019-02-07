@@ -19,8 +19,8 @@ El propósito de este sistema es disminuir el tiempo de búsqueda de las actas d
 
 * Abrimos el sistema gestor de base de datos (postgres en nuestro caso) y creamos una nueva base de datos con el nombre: “Sistema_de_seguridad” (respetando mayúsculas y minúsculas).
 * Ejecutamos el script denominado “BDD.sql” en el sistema gestor de base de datos  (el script se encuentra en la carpeta del sistema.)
-* Copiamos la carpeta del sistema en el servidor local ("www" en el caso de WAMP y "htdocs" en el caso de XAMP).
-* A trvez del navegador accedemos al sistema ("http://localhost/sistema%20V3.7.4/Sistema%20de%20seguridad/Default/")
+* Copiamos la carpeta del sistema en el servidor local ("www" en el caso de WAMP y "htdocs" en el caso de XAMP) y ejecutamos el servidor.
+* A trvez del navegador accedemos al sistema (mediante una URL similar a esta: "http://localhost/sistema%20V3.7.4/Sistema%20de%20seguridad/Default/")
 
 ## Tecnología usada
 
@@ -51,3 +51,10 @@ El propósito de este sistema es disminuir el tiempo de búsqueda de las actas d
 El sistema es completamente funcional pero bastante "artesanal". Actualmente (2018) lo mejor es usar frameworks que estandaricen el trabajo como podría ser Laravel en el caso de usar PHP o spring en el caso de Java. 
 
 Por otra parte en lo que respecta a la arquitectura una buena opción es crear una API REST para encargarse del manejo de datos y uno o varios clientes (Angular, aplicación móvil, etc) para que interactuen con el usuario final y la API. Esto permite que la aplicación sea más escalable y facil de mantener. 
+
+## Capturas
+
+![Captura1](Captura1.PNG)
+![Captura2](Captura2.PNG)
+![Captura3](Captura3.PNG)
+![Captura4](Captura4.PNG)
