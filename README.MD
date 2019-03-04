@@ -1,7 +1,7 @@
 # Sistema de seguridad
 
 ## Vista previa
-El sistema nace de un trabajo para la universidad, lo elaboré junto con un grupo de compañeros en el año 2016. Lo más destacable del proyecto es el uso del patrón MVC y la integración con librerías externas para resolver problemas particulares.
+El sistema nace de un trabajo para la universidad, lo elaboré junto con [@JesúsPeña](https://www.linkedin.com/in/jesús-gabriel-peña-1b37a113a/) y [@YosleidaCedeño](https://www.linkedin.com/in/yosleida-cede%C3%B1o-1aa450102/?originalSubdomain=ec) en el año 2016. Lo más destacable del proyecto es el uso del patrón MVC y la integración con librerías externas para resolver problemas particulares.
 
 ## Enunciado del problema
 
